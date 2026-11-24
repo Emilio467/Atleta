@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="health_privacy_title">Health data and permissions</string>
+    <string name="health_privacy_body">ATLETA reads workouts when you enable Health Connect. Your records are stored locally. ATLETA does not write health records back. Review or revoke access in Health Connect or stop importing in ATLETA’s Data sources screen.</string>
+</resources>
+

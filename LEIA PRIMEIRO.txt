@@ -1,0 +1,53 @@
+﻿ATLETA | PROJETO COMPLETO
+Painel Windows 1.11.2 | Firmware M5 2.2.5 | Código Flutter 1.1.6
+
+1. Abrir no outro PC (Windows x64)
+Extraia todo o ZIP em uma pasta local. Inicie o Docker Desktop em modo Linux
+containers e abra ABRIR PAINEL.exe. Esse executável já inclui o Python.
+Se o Windows bloquear o EXE pelo Controle de Aplicativo, siga a etapa 5
+para instalar as dependências e abra ABRIR PAINEL PYTHON.cmd.
+Clique em Preparar computador e siga a indicação do painel para iniciar o
+laboratório. Use uma instalação nova para restaurar o histórico. No primeiro
+uso, o Docker precisa de internet para baixar as imagens de MySQL e EMQX.
+
+2. Histórico e relógio
+O backup contém 8904 registros do MySQL local (8898 do M5 e
+6 de teste) até 23/11/2026 às 20:22:50, horário de Fortaleza.
+A pasta laboratorio/migracao contém o snapshot que o painel restaura ao iniciar
+o laboratório. O perfil do painel acompanha o pacote. O perfil e os treinos
+salvos pelo app Android continuam no celular em que foram gravados.
+
+No novo PC, configure o M5 pelo painel para uma rede de 2,4 GHz que permita ao
+relógio alcançar esse computador. Use Configurar Wi-Fi via Bluetooth ou o
+modo USB oferecido pelo painel. A instalação gera credenciais locais próprias
+e envia as novas configurações ao M5 pelo mesmo fluxo.
+
+3. Aiven
+O host, a porta, o banco defaultdb, o usuário de sincronização e o certificado
+CA já estão no pacote. A sincronização vem desativada. Abra
+laboratorio/cloud.local.json, preencha a senha da conta de sincronização e
+mude "enabled" para true. O painel aberto envia o histórico e as novas leituras.
+A senha de Wi-Fi é definida ao configurar o M5. Credenciais administrativas,
+senhas e chaves privadas ficam na instalação de origem.
+Mais detalhes em laboratorio/docs/NUVEM.md.
+
+4. Código-fonte e binários
+- aplicativo/ contém o projeto Flutter, assets, testes e configurações
+  Android, iOS e web. Use Flutter 3.44.3. Na pasta aplicativo, execute
+  flutter pub get e flutter build apk --release. Veja aplicativo/README.md.
+- aplicativo/entrega/ tem o APK 1.1.6 do fonte incluído e o APK de teste 1.1.8
+  já assinado. O código da versão 1.1.8 não estava disponível no projeto de origem.
+  Uma nova build em outro PC pode assinar com outra chave de desenvolvimento.
+- laboratorio/painel/ tem o código Python do painel. laboratorio/firmware/
+  tem o PlatformIO e C++ do M5. Os binários atuais estão em laboratorio/entrega/.
+- laboratorio/emqx/ e laboratorio/sql/ contêm as regras e o esquema do banco.
+  site/ contém o site estático. docs/ inclui diagramas e relatórios em PDF.
+  codigo-original/ guarda a API HTTP anterior como referência.
+
+5. Usar o código Python e acompanhar a Aiven no terminal
+Só para desenvolvimento, painel pelo fonte ou leitura pelo terminal. Na raiz,
+com Python 3.12 instalado, execute no PowerShell:
+  py -3.12 -m venv .venv-lab
+  .\.venv-lab\Scripts\python.exe -m pip install -r laboratorio\requirements.txt
+Para abrir pelo código use ABRIR PAINEL PYTHON.cmd. Para ler o defaultdb, depois
+de configurar a Aiven, abra ABRIR LEITURA AIVEN.cmd. Ctrl+C encerra a leitura.

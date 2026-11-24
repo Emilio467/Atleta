@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-11-05T00:50:31.775952+00:00",
+  "version": "1.6.2",
+  "panel_tests_passed": 63,
+  "retains_last_values_by_default": true,
+  "warns_when_older_than_seconds": 10,
+  "last_reading_utc": "2026-11-05T00:50:31.605000+00:00",
+  "last_reading_age_seconds": 0.169,
+  "firmware": "2.1.7",
+  "displayed_steps": "0",
+  "displayed_battery": "96%",
+  "cloud_status": {
+    "state": "online",
+    "pending": 0,
+    "checked_at_utc": "2026-11-05T00:50:24.630797+00:00"
+  },
+  "network_configuration_changed": false,
+  "usb_receiver_added": false
+}

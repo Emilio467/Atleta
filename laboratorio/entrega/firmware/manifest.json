@@ -1,0 +1,44 @@
+{
+  "version": "2.2.5",
+  "board": "M5StickC Plus2",
+  "language": "Arduino C++",
+  "compiled_at_utc": "2026-11-20T04:29:50.460782+00:00",
+  "flash_mb": 8,
+  "secrets_embedded": false,
+  "physical_device_tested": false,
+  "source_sha256": "4ea73a982eb6ab090d5d0a3b52b3cdb4a1a86e74367ee5a7cd3ec626be56df13",
+  "activity_header_sha256": "b214e3514a2e7d01ad4a24588f5c5c440cee914bac5342f1c507c2b2e9b4bedd",
+  "platformio_ini_sha256": "55d88b54c78eb1dda9c2d146912c1ba3d96ffe21d2ea1880121a69fae9c6dd31",
+  "segments": [
+    {
+      "offset": "0x1000",
+      "file": "bootloader.bin",
+      "sha256": "ef4ea64b8c5175a23427d78ce4c635a2d8d1b6811750c2597c46c5d458d2494a",
+      "bytes": 17536
+    },
+    {
+      "offset": "0x8000",
+      "file": "partitions.bin",
+      "sha256": "1d9cca96de0fe07ad7fc0648b9878ddecd9ce565e38b589ad20fea698ed4c80c",
+      "bytes": 3072
+    },
+    {
+      "offset": "0xe000",
+      "file": "boot_app0.bin",
+      "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0",
+      "bytes": 8192
+    },
+    {
+      "offset": "0x10000",
+      "file": "firmware.bin",
+      "sha256": "01a726a1520fbfff7d77ba961834dcf7de981507c377f0f9f456870511e60300",
+      "bytes": 1821328
+    }
+  ],
+  "merged": {
+    "file": "m5stickc-plus2-lab-2.2.5.bin",
+    "offset": "0x0",
+    "sha256": "2b3f337d9814fe4fdcfccf8467d3d98082fbf7b9993c2d9ee57d993a3136ea5d",
+    "bytes": 1886864
+  }
+}

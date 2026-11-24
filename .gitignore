@@ -1,0 +1,7 @@
+.venv-lab/
+__pycache__/
+*.pyc
+laboratorio/runtime/
+laboratorio/config.local.json
+laboratorio/cloud.local.json
+laboratorio/migracao/

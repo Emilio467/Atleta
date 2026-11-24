@@ -1,0 +1,91 @@
+289 INFO: PyInstaller: 6.22.2, contrib hooks: 2026.9
+290 INFO: Python: 3.12.10
+344 INFO: Platform: Windows-11-10.0.26200-SP0
+344 INFO: Python environment: C:\PROJETOS PESSOAIS\Atleta - outro PC\.venv-lab
+346 INFO: wrote C:\PROJETOS PESSOAIS\Atleta - outro PC\ATLETA-PROJETO\laboratorio\painel\build\PainelIP.spec
+353 INFO: Removing temporary files and cleaning cache in C:\Users\tassi\AppData\Local\pyinstaller
+984 INFO: Module search paths (PYTHONPATH):
+['C:\\PROJETOS PESSOAIS\\Atleta - outro '
+ 'PC\\ATLETA-PROJETO\\laboratorio\\painel',
+ 'C:\\Users\\tassi\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip',
+ 'C:\\Users\\tassi\\AppData\\Local\\Programs\\Python\\Python312\\DLLs',
+ 'C:\\Users\\tassi\\AppData\\Local\\Programs\\Python\\Python312\\Lib',
+ 'C:\\Users\\tassi\\AppData\\Local\\Programs\\Python\\Python312',
+ 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab',
+ 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages',
+ 'C:\\PROJETOS PESSOAIS\\Atleta - outro '
+ 'PC\\ATLETA-PROJETO\\laboratorio\\painel',
+ 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\ATLETA-PROJETO\\laboratorio\\tools']
+1571 INFO: Appending 'datas' from .spec
+1573 INFO: checking Analysis
+1573 INFO: Building Analysis because Analysis-00.toc is non existent
+1573 INFO: Looking for Python shared library...
+1573 INFO: Using Python shared library: C:\Users\tassi\AppData\Local\Programs\Python\Python312\python312.dll
+1573 INFO: Running Analysis Analysis-00.toc
+1573 INFO: Target bytecode optimization level: 0
+1573 INFO: Initializing module dependency graph...
+1575 INFO: Initializing module graph hook caches...
+1587 INFO: Analyzing modules for base_library.zip ...
+3747 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks'
+4388 INFO: Processing standard module hook 'hook-math.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks'
+4609 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks'
+5587 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks'
+7188 INFO: Caching module dependency graph...
+7234 INFO: Analyzing C:\PROJETOS PESSOAIS\Atleta - outro PC\ATLETA-PROJETO\laboratorio\painel\app.py
+7293 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks'
+7309 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+7312 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+7844 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks'
+7901 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks'
+8028 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks'
+8245 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks'
+8744 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks'
+8914 INFO: Processing standard module hook 'hook-bcrypt.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+9199 INFO: Processing standard module hook 'hook-cryptography.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+11711 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+12434 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12436 INFO: SetuptoolsInfo: initializing cached setuptools info...
+14310 INFO: Processing standard module hook 'hook-bleak.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14651 INFO: Processing standard module hook 'hook-winrt.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\winrt\\__pyinstaller'
+16896 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks'
+16935 INFO: Analyzing hidden import 'winrt.__pyinstaller'
+16938 INFO: Analyzing hidden import 'winrt.__pyinstaller.hook-winrt'
+16942 INFO: Analyzing hidden import 'winrt.system.hresult'
+16945 INFO: Processing module hooks (post-graph stage)...
+17013 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks'
+17051 INFO: Performing binary vs. data reclassification (952 entries)
+17432 INFO: Looking for ctypes DLLs
+17467 WARNING: Ignoring /System/Library/Frameworks/IOKit.framework/IOKit imported from C:\PROJETOS PESSOAIS\Atleta - outro PC\.venv-lab\Lib\site-packages\serial\tools\list_ports_osx.py - only basenames are supported with ctypes imports!
+17467 WARNING: Ignoring /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation imported from C:\PROJETOS PESSOAIS\Atleta - outro PC\.venv-lab\Lib\site-packages\serial\tools\list_ports_osx.py - only basenames are supported with ctypes imports!
+17495 INFO: Analyzing run-time hooks ...
+17498 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+17502 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+17505 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+17509 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+17510 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\PROJETOS PESSOAIS\\Atleta - outro PC\\.venv-lab\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+17551 INFO: Creating base_library.zip...
+17581 INFO: Looking for dynamic libraries
+18154 INFO: Extra DLL search directories (AddDllDirectory): []
+18154 INFO: Extra DLL search directories (PATH): []
+19118 INFO: Warnings written to C:\PROJETOS PESSOAIS\Atleta - outro PC\ATLETA-PROJETO\laboratorio\painel\build\pyinstaller\PainelIP\warn-PainelIP.txt
+19184 INFO: Graph cross-reference written to C:\PROJETOS PESSOAIS\Atleta - outro PC\ATLETA-PROJETO\laboratorio\painel\build\pyinstaller\PainelIP\xref-PainelIP.html
+19250 INFO: checking PYZ
+19250 INFO: Building PYZ because PYZ-00.toc is non existent
+19251 INFO: Building PYZ (ZlibArchive) C:\PROJETOS PESSOAIS\Atleta - outro PC\ATLETA-PROJETO\laboratorio\painel\build\pyinstaller\PainelIP\PYZ-00.pyz
+19676 INFO: Building PYZ (ZlibArchive) C:\PROJETOS PESSOAIS\Atleta - outro PC\ATLETA-PROJETO\laboratorio\painel\build\pyinstaller\PainelIP\PYZ-00.pyz completed successfully.
+19749 INFO: checking PKG
+19750 INFO: Building PKG because PKG-00.toc is non existent
+19750 INFO: Building PKG (CArchive) PainelIP.pkg
+25113 INFO: Building PKG (CArchive) PainelIP.pkg completed successfully.
+25144 INFO: Bootloader C:\PROJETOS PESSOAIS\Atleta - outro PC\.venv-lab\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+25145 INFO: checking EXE
+25145 INFO: Building EXE because EXE-00.toc is non existent
+25145 INFO: Building EXE from EXE-00.toc
+25148 INFO: Copying bootloader EXE to C:\PROJETOS PESSOAIS\Atleta - outro PC\ATLETA-PROJETO\laboratorio\entrega\PainelIP.exe
+25156 INFO: Copying icon to EXE
+25164 INFO: Copying 0 resources to EXE
+25164 INFO: Embedding manifest in EXE
+25170 INFO: Appending PKG archive to EXE
+25198 INFO: Fixing EXE headers
+25353 INFO: Building EXE from EXE-00.toc completed successfully.
+25384 INFO: Build complete! The results are available in: C:\PROJETOS PESSOAIS\Atleta - outro PC\ATLETA-PROJETO\laboratorio\entrega

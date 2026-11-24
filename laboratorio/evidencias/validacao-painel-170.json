@@ -1,0 +1,18 @@
+{
+  "version": "1.7.0",
+  "checked_at_utc": "2026-11-05T11:15:38.171452+00:00",
+  "unit_tests_passed": 66,
+  "gui_verified": [
+    "home_status_and_saved_reading",
+    "advanced_options_tab",
+    "connect_m5_dialog",
+    "missing_usb_guidance",
+    "optional_profile_tab",
+    "athlete_data_opens"
+  ],
+  "desktop_shortcut": "Atleta.lnk",
+  "source_launcher": "ABRIR ATLETA.cmd",
+  "compiled_artifact_hashes_verified": true,
+  "hardware_configuration_sent_during_validation": false,
+  "cloud_connection": "pending_dns_requires_service_owner"
+}

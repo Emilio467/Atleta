@@ -1,0 +1,27 @@
+{
+  "local": {
+    "received_at_utc": "2026-11-05 00:36:12.427000",
+    "age_seconds": 0,
+    "firmware": "2.1.7",
+    "steps": 0,
+    "battery": 100
+  },
+  "cloud": {
+    "received_at_utc": "2026-11-05 00:36:08.413000",
+    "age_seconds": 4,
+    "firmware": "2.1.7",
+    "steps": 0,
+    "battery": 100
+  },
+  "cloud_status": {
+    "state": "online",
+    "pending": 0,
+    "checked_at_utc": "2026-11-05T00:36:09.271282+00:00"
+  },
+  "panel_version": "1.6.1",
+  "panel_tests_passed": 63,
+  "main_executable_updated": true,
+  "exe_launch_blocked_by_windows_policy": true,
+  "opened_using_project_python": true,
+  "checked_at_utc": "2026-11-05T00:36:13.915193+00:00"
+}

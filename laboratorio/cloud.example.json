@@ -1,0 +1,11 @@
+{
+  "enabled": false,
+  "host": "SEU-SERVICO.aivencloud.com",
+  "port": 3306,
+  "database": "athlete_lab",
+  "user": "atleta_sync",
+  "password": "",
+  "ca_file": "runtime/aiven-ca.pem",
+  "batch_size": 250,
+  "interval_seconds": 5
+}

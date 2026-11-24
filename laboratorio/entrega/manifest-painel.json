@@ -1,0 +1,89 @@
+{
+  "version": "1.11.2",
+  "target": "Windows x64",
+  "python": "3.12.10",
+  "pyinstaller": "6.22.2",
+  "files": {
+    "PainelIP.exe": {
+      "bytes": 18008263,
+      "sha256": "8f56f352b2255fee835b4400f33687f161aead78edfc4514ddd8d8d81121f303"
+    },
+    "painel-ip-portatil.zip": {
+      "bytes": 18901243,
+      "sha256": "ad20c44a95bf6c2158e71bf59da970e3a51b4296a62a7215be25911025be7b98"
+    },
+    "app.py": {
+      "bytes": 34802,
+      "sha256": "0dd9d35537c9681832a35a5eb13bd319628e1c9a6b9d7d868017b22d2e8a26aa"
+    },
+    "rede.py": {
+      "bytes": 10094,
+      "sha256": "e57ce4842694dc895fec5d261f66334e3182d8f8ace8d7bab7a7d67425a5bf00"
+    },
+    "servidor.py": {
+      "bytes": 16616,
+      "sha256": "690ce214cdc0fbcb8da41f83254280743e6396717326153fbf556a75a7d94796"
+    },
+    "build.py": {
+      "bytes": 3897,
+      "sha256": "842da6b29311191ab766381708c43e5ae26990a2157af3a559e02e4fb724fa6e"
+    },
+    "requirements-build.txt": {
+      "bytes": 119,
+      "sha256": "d63245274f57bf0a09382f1e0842d748dd49a01198ac97dc95aaa07dd653b4eb"
+    },
+    "configurar_m5.py": {
+      "bytes": 13797,
+      "sha256": "cde670a38e7c5dad3ed168d82356fc730f59ad439b96ea1db9682adbcf2c2939"
+    },
+    "m5_serial.py": {
+      "bytes": 2521,
+      "sha256": "d2821629d5e58f6a1ce606f97bd50437600572c4f47cf2e19a17b38182398597"
+    },
+    "dados_atleta.py": {
+      "bytes": 18127,
+      "sha256": "2282cf2c44b51ef5ef1ba441d53d090b7f971c8b9707830b7f3709f86ae928f1"
+    },
+    "migracao.py": {
+      "bytes": 9924,
+      "sha256": "529039ec9abbd7d0ed8f9c64a48da87c878471435c12987811dc094e2448b1c6"
+    },
+    "wifi_pc.py": {
+      "bytes": 10605,
+      "sha256": "86f8d24307e0ef983041f9f88655e99f16865df8e5ac0bfe670e54f4cc1bcc6b"
+    },
+    "conexao_m5.py": {
+      "bytes": 8172,
+      "sha256": "dcc01198f0a47342cf234bd9262a02372621bfdf34c1f3568858fa1a38fb0a64"
+    },
+    "nuvem.py": {
+      "bytes": 15882,
+      "sha256": "f179c8ca232226c504bc36462405dcc28004baa6ac2f4419b884258e4c696d9e"
+    },
+    "inicio.py": {
+      "bytes": 1008,
+      "sha256": "84e8303d0c18a3740df5d3cfe67d24be5c98b0f8c6314a3860a5ad45fdec7bf8"
+    },
+    "ota_m5.py": {
+      "bytes": 11511,
+      "sha256": "914958f102e9a2d8b117d322b8fd40b9244f9dc9de747a048aec7f1c736943a7"
+    },
+    "wifi_ble.py": {
+      "bytes": 18305,
+      "sha256": "672ab4c1022aee59b6db7ef84e0810050582ed6bd4d48678050eac58fe3245e7"
+    },
+    "live_readings.py": {
+      "bytes": 4125,
+      "sha256": "556d3456142549069d67fe0d45ffe158c4e82dd3eacc2f9c642c84dd93eca18e"
+    },
+    "lab.py": {
+      "bytes": 12141,
+      "sha256": "1a742e0852e19a674d3dd754657d31df9f7f057851a8fff4b3ca61ca7236e7dd"
+    },
+    "ota.py": {
+      "bytes": 3077,
+      "sha256": "c60271f2571cd7f00485f2b87fdb25edafee521535fb7b2f0e33e61f1d992780"
+    }
+  },
+  "credentials_bundled": false
+}

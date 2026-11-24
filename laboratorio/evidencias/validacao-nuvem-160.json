@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-11-05T00:11:10.277112+00:00",
+  "local_rows": 2345,
+  "cloud_rows": 2345,
+  "all_local_rows_match_cloud": true,
+  "extra_cloud_rows": 0,
+  "tls_cipher": "TLS_AES_256_GCM_SHA384",
+  "certificate_and_hostname_verified": true,
+  "local_user_has_no_write_grant": true,
+  "cloud_user_has_no_admin_or_delete_grant": true,
+  "cloud_tests_passed": 15,
+  "panel_tests_passed": 58,
+  "device_live_tested": false,
+  "repeat_inserted": 0,
+  "pending": 0,
+  "passed": true
+}
